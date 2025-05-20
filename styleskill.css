@@ -79,6 +79,7 @@ ul li a:hover {
 
 .image:hover .shin {
   left: 55%;
+  color: green;
 }
 .skills ul {
   list-style-type: none;

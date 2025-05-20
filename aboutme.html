@@ -3,6 +3,7 @@
   <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
   </head>
   <body>
     <div class="main">
@@ -22,13 +23,12 @@
             especially Kingdom. I enjoy designing websites and learning to code from scratch.</p>
             <p>Rigth now, I'm learning
               <ul>
-              <li>html</li>
-              <li>css</li>
-              <li>Java Script</li>
-              <li>Python</li>
-              <li>git and github</li>
-             
-              <li>data structures & algorithmn</li>
+              <li><ion-icon name="logo-html5"></ion-icon></li>
+              <li><ion-icon name="logo-css3"></ion-icon></li>
+              <li><ion-icon name="logo-javascript"></ion-icon></li>
+              <li><ion-icon name="logo-python"></ion-icon></li>
+              <li><ion-icon name="logo-github"></ion-icon></li>             
+              <li><ion-icon name="logo-buffer"></ion-icon></li>
             </ul> 
             </p>
             <button id="button" onclick="toggleMore()">Read More</button>
@@ -41,12 +41,7 @@
           <img src="shin.png" class="shin" />
         </div>
     </div>
-     <script class="buto">
-       function toggleMore() {
-       const text = document.getElementById("Showmore");
-       text.style.display = text.style.display === "none" ? "block" : "none";
-       }
-     </script>
+    <script src="script.js" defer></script>
        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </body>
 </html>
