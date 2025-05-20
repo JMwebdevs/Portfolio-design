@@ -63,9 +63,12 @@ ul li a:hover {
   background-color: rgb(36, 32, 30);
   margin: 26px 0;
   padding: 10px 18px;
-  border-radius: 10px;
+  border-radius: 40px;
   display: inline-block;
   transition: 0.4s ease;
+  width: 175px;
+  height: 15px;
+  text-align: center;
 }
 .info a:hover {
   background: green;
@@ -86,6 +89,7 @@ ul li a:hover {
   transform: translate(-55%);
   bottom: 0;
   transition: left 2s ease;
+  filter: drop-shadow(0 0 40px rgb(9, 67, 9));
 }
 
 .image:hover .shin {
@@ -104,4 +108,52 @@ ul li a:hover {
 }
 .icons ion-icon:hover {
   color: green;
+}
+/* about me */
+.aboutme {
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.aboutme span {
+  color: green;
+}
+.aboutme h1 {
+  color: black;
+  font-size: 65px;
+  margin-bottom: 8px;
+}
+.aboutme h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.aboutme {
+  width: 60%;
+}
+.aboutme h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.aboutme ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.aboutme ul li::before {
+  color: green;
+  content: "➤ ";
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+.aboutme button {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
