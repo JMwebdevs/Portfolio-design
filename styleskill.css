@@ -17,4 +17,79 @@
   margin: auto;
   padding: 15px 0;
   align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo {
+  width: 210px;
+  cursor: pointer;
+  margin-left: -2%;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-top: -3%;
+  transition: 0.4s ease;
+}
+
+ul li a:hover {
+  color: green;
+}
+.skills {
+  margin-left: 7%;
+  margin-top: 6%;
+}
+
+.skills h1 {
+  font-size: 65px;
+  color: black;
+}
+.skills h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.skills span {
+  color: green;
+}
+
+.image {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+
+.image img {
+  position: absolute;
+  height: 140%;
+  left: 40%;
+  transform: translate(-55%);
+  bottom: 0;
+  transition: left 2s ease;
+  filter: drop-shadow(0 0 40px rgb(9, 67, 9));
+}
+
+.image:hover .shin {
+  left: 55%;
+}
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 30px;
+}
+.skills ul li::before {
+  color: green;
+  font-size: 40px;
+}
+
+.skills ion-icon:hover {
+  color: green;
 }
